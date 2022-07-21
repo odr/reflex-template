@@ -1,0 +1,1 @@
+ghcid -c 'cabal v2-repl reflex-template' --test 'Main.main'
