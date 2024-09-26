@@ -28,7 +28,7 @@
     };
     creditCardSrc = builtins.fetchGit {
       url = "http://github.com/typeable/credit-card.git";
-      rev = "a505cb6cb77a61e1f871892b7ebee2b1947ce17b";
+      rev = "fca6e5aebe964796491690fa65772550ca970bac";
     };
     derivingOpenapi3Src = builtins.fetchGit {
       url = "https://github.com/ilyakooo0/deriving-openapi3";
@@ -40,11 +40,11 @@
     };
     emailSrc = builtins.fetchGit {
       url = "http://github.com/typeable/email.git";
-      rev = "34f36f5dd76e7f1a498d04e548cd4cdbb0eba38e";
+      rev = "7b83ebee28ecb23692e59ba33bb9158df4db0870";
     };
     emailValidateExtraSrc = builtins.fetchGit {
       url = "http://github.com/typeable/email-validate-extra.git";
-      rev = "0ebb2d1c9d9dfdaadd3c21a781c94c977209ee26";
+      rev = "b45c841a9d2a7d0c756ecf452d2c3d06f788befe";
     };
     entropySrc = builtins.fetchGit {
       url = "https://github.com/TomMD/entropy.git";
@@ -77,8 +77,8 @@
     };
     openapi3Src = builtins.fetchGit {
       url = "https://github.com/typeable/openapi3.git";
-      rev = "931f04300f9b569b9f8cacbc5adf74591f8cb6e5";
-      ref = "patch_deps_322";
+      rev = "3321dc09fa174f4a407028e025f1db8403ffb24f";
+      ref = "patch_deps";
     };
     randomTokenSrc = builtins.fetchGit {
       url = "https://github.com/typeable/random-token.git";
@@ -86,7 +86,7 @@
     };
     reflexDomExtraSrc = builtins.fetchGit {
       url = "http://github.com/typeable/reflex-dom-extra.git";
-      rev = "3d1461129395fc469903d132e82d4be142e5d7c2";
+      rev = "2514d9d71974526d7a3f007621aea1f3f28c1b27";
     };
     servantExtraApiSrc = builtins.fetchGit {
       url = "https://github.com/typeable/servant-extra-api.git";
